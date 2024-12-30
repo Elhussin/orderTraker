@@ -4,10 +4,10 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$dsn = 'mysql:host=sql112.infinityfree.com;dbname=if0_38009419_shop';
-$username = 'if0_38009419'; // Correct username
-$username = 'if0_38009419';
-$password = 'Ah0540919725';
+$dsn = 'mysql:host=sql112.infinityfree.com;dbname=';
+$username = ''; // Correct username
+
+$password = '';
 
 try {
     $databass = new PDO($dsn, $username, $password);
